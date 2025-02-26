@@ -1,0 +1,4 @@
+[
+    { "username": "99210041909@klu.ac.in", "password": "Shaik.Nagur 346", "expected": "success" },
+    { "username": "invaliduser", "password": "wrongpassword", "expected": "failure" }
+  ]
