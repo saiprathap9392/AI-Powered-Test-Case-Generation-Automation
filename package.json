@@ -1,0 +1,10 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "generate-tests": "npx playwright test --reporter=line --timeout=60000"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
