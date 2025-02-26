@@ -34,9 +34,12 @@ npx playwright show-report
 
 Folder Structure
 ai-test-generator/
-├── ai_model/                # AI model for generating BDD test cases
-├── test_case_converter/     # Converter for Gherkin syntax
-├── playwright_tests/        # Playwright test scripts
+├── ai_model/ generate_tests
+|     |____/_init_          # AI model for generating BDD test cases
+├── test_case_converter/convert_to_gherkin     # Converter for Gherkin syntax
+├── playwright_tests/test-data.json
+|                  |__ pages/loginpage &dashboardpage
+|                  |__tests/login.test & dashboard.test & login.feature     # Playwright test scripts
 ├── main.py                  # Main script
 ├── requirements.txt         # Python dependencies
 ├── package.json             # Node.js dependencies
