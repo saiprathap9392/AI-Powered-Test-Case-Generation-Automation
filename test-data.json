@@ -1,4 +1,4 @@
 [
-    { "username": "99210041909@klu.ac.in", "password": "Shaik.Nagur 346", "expected": "success" },
+    { "username": "can you give your github username", "password": "can you give your github password ", "expected": "success" },
     { "username": "invaliduser", "password": "wrongpassword", "expected": "failure" }
   ]
